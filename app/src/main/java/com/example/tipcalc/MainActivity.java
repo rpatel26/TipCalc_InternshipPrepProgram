@@ -128,7 +128,5 @@ public class MainActivity extends AppCompatActivity {
 
     public void historyButtonClicked(View v){
         // Switch Screen....
-        Intent intent = new Intent(this, History.class);
-        startActivity(intent);
     }
 }
