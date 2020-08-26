@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="32dp"
         android:text="Bill Amount"
         android:textAlignment="viewStart"
         android:textColor="#000000"
@@ -96,4 +96,25 @@
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="@+id/total18"
         app:layout_constraintTop_toTopOf="@+id/tip20" />
+
+    <TextView
+        android:id="@+id/customTip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Tip (xx.x%): $000.00"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/tip20"
+        app:layout_constraintTop_toBottomOf="@+id/tip20" />
+
+    <TextView
+        android:id="@+id/totalCustomTip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total (xx.x%): $000.00"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/total20"
+        app:layout_constraintTop_toTopOf="@+id/customTip" />
 </androidx.constraintlayout.widget.ConstraintLayout>
